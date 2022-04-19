@@ -18,7 +18,9 @@ In addition to youtube videos and udemy courses, I used the following website fo
 `https://forum.serverless.com/`
 
 This program resizes the PNG file formats to save more S3 bucket space, then the Lambda function triggers and records id number, creation time, name, URL, reduced size information, and update time. To run the PIL library you need to add its layer's arn to the lambda function. Depending on the region you are located in, the related arn can be found in this GitHub repository:
+
 `https://github.com/keithrozario/Klayers`
+
 Since I am using python 3.8 and my AWS region is eu-west-1, I added this arn to the lambda function layers (from https://api.klayers.cloud/api/v2/p3.8/layers/latest/eu-west-1/json):
 
 `"arn": "arn:aws:lambda:eu-west-1:770693421928:layer:Klayers-p38-Pillow:1"`
