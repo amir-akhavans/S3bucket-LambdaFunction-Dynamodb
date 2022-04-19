@@ -32,7 +32,8 @@ Since I am using python 3.8 and my AWS region is eu-west-1, I added this arn to 
 
 `arn:aws:lambda:eu-west-1:770693421928:layer:Klayers-p38-Pillow:1`
 
-![Serverless](https://user-images.githubusercontent.com/83725346/164093818-7f523e0c-4df3-49d0-81bc-f47e601977f9.gif)
+You can follow the steps running this project here
 
+![Serverless](https://user-images.githubusercontent.com/83725346/164102390-17c58561-b4f5-4d1f-8cb0-b97e1d763ca9.gif)
 
 
