@@ -9,7 +9,7 @@ To do the given task, first I started studying more about Serverless Framework a
 
  `https://www.udemy.com/certificate/UC-c3530026-20fd-40df-b519-6299e14ab549/`
  
-To learn more about serverless and cloud formation, I also bought these two helpful udemy courses, but I have not finished them because of a shortage of time.
+To learn more about serverless and cloud formation, I also bought these two helpful udemy courses, but I have not finished them because of the shortage of time.
 The courses I'm currently studying are :
 
 1- `https://www.udemy.com/course/aws-lambda-serverless-architecture/`
@@ -24,7 +24,7 @@ In addition to youtube videos and udemy courses, I used the following website fo
 
 `https://forum.serverless.com/`
 
-This program resizes the PNG file formats to save more S3 bucket space, then the Lambda function triggers and records id number, creation time, name, URL, reduced size information, and update time. To run the PIL library you need to add its layer's arn to the lambda function. Depending on the region you are located in, the related arn can be found in this GitHub repository:
+This program resizes the PNG file formats to save more S3 bucket space, then the Lambda function triggers and records id number, creation time, name, URL, reduced size information and update time. To run the PIL library you need to add its layer's arn to the lambda function. Depending on the region you are located in, the related arn can be found in this GitHub repository:
 
 `https://github.com/keithrozario/Klayers`
 
