@@ -30,7 +30,7 @@ This program resizes the PNG file formats to save more S3 bucket space, then the
 
 Since I am using python 3.8 and my AWS region is eu-west-1, I added this arn to the lambda function layers (from https://api.klayers.cloud/api/v2/p3.8/layers/latest/eu-west-1/json):
 
-`"arn": "arn:aws:lambda:eu-west-1:770693421928:layer:Klayers-p38-Pillow:1"`
+`arn:aws:lambda:eu-west-1:770693421928:layer:Klayers-p38-Pillow:1`
 
 
 
