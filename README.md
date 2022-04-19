@@ -1,3 +1,10 @@
+## Project Description 
+
+an event-driven application that contains an Amazon S3 bucket, an AWS Lambda function, and an Amazon DynamoDB table.
+An object uploaded in the S3 bucket triggers the Lambda function, storing the object name and creation date in the DynamoDB table.
+
+## What I have done 
+
 To do the given task, first I started studying more about Serverless Framework and lambda functions using different websites and watched several youtube clips for the first two days. To gain more information, then I read AWS Lambda and the Serverless Framework – Hands-On Learning udemy course. The completion certificate is available using this link: 
 
  `https://www.udemy.com/certificate/UC-c3530026-20fd-40df-b519-6299e14ab549/`
