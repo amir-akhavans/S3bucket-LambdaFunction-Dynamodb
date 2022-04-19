@@ -79,7 +79,6 @@ def s3_save_thumbnail_url_to_dynamo(url_path, img_size):
         Item={
             'id': str(uuid.uuid4()),
             'createdAt': str(datetime.now()),
-            'fileName': str(boto3.resource('s3')),
             'url': str(url_path),
             'approxReducedSize': str(toint) + str(' KB'),
             'updatedAt': str(datetime.now())
