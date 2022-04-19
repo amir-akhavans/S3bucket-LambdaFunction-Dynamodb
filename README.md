@@ -24,7 +24,7 @@ In addition to youtube videos and udemy courses, I used the following website fo
 
 `https://forum.serverless.com/`
 
-When the PNG file is uploaded to S3 bucket, the Lambda function triggers and resizes the PNG files by half and sends the reduced PNG file url, id, creation time, name and update time to dynamodb and API gateway. To run the PIL library you need to add its layer's arn to the lambda function. Depending on the region you are located in, the related arn can be found in this GitHub repository:
+When the PNG file is uploaded to S3 bucket, the Lambda function triggers and resizes the PNG files and sends the reduced PNG file url, id, creation time, name and update time to dynamodb and API gateway. To run the PIL library you need to add its layer's arn to the lambda function. Depending on the region you are located in, the related arn can be found in this GitHub repository:
 
 `https://github.com/keithrozario/Klayers`
 
