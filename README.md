@@ -6,14 +6,16 @@ To learn more about serverless and cloud formation, I also bought these two help
 The courses I'm currently studying are :
 
 1- `https://www.udemy.com/course/aws-lambda-serverless-architecture/`
+
    (AWS Lambda & Serverless Architecture Bootcamp, includes everything used to run a serverless stack, namely S3, Kinesis, SNS, SQS, Dynamodb, and API Gateway) 
    
 2- `https://www.udemy.com/course/aws-cloudformation-master-class/`
+
    (AWS CloudFormation Master Class, Stephane teaches everything needed to create CloudFormation stack using Vscode)
    
 In addition to youtube videos and udemy courses, I used the following website for solving some problems I faced.
 
-https://forum.serverless.com/
+`https://forum.serverless.com/`
 
 This program resizes the PNG file formats to save more S3 bucket space, then the Lambda function triggers and records id number, creation time, name, URL, reduced size information, and update time. To run the PIL library you need to add its layer's arn to the lambda function. Depending on the region you are located in, the related arn can be found in this GitHub repository:
 `https://github.com/keithrozario/Klayers`
