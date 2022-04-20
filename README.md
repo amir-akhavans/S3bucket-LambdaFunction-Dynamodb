@@ -1,3 +1,5 @@
+![Serverless](https://user-images.githubusercontent.com/83725346/164102390-17c58561-b4f5-4d1f-8cb0-b97e1d763ca9.gif)
+
 ## Project Description 
 
 an event-driven application that contains an Amazon S3 bucket, an AWS Lambda function, and an Amazon DynamoDB table.
@@ -32,8 +34,8 @@ Since I am using python 3.8 and my AWS region is eu-west-1, I added this arn to 
 
 `arn:aws:lambda:eu-west-1:770693421928:layer:Klayers-p38-Pillow:1`
 
-You can follow the steps running this project here
 
-![Serverless](https://user-images.githubusercontent.com/83725346/164102390-17c58561-b4f5-4d1f-8cb0-b97e1d763ca9.gif)
+
+
 
 
